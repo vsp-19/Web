@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Job Application Form</title>
+</head>
+<body>
+<div class="formLayout">
+<form method="post" action="mailto:virendersp19@gmail.com" align="center">
+<table border=3 bgcolor="red" align="center" width=100%>
+	<tr>
+		<td colspan=2><h1 style="color:Blue" align= "center"><u>SpeedyPC Application Form</u></h1></td>
+	</tr>
+	<tr>
+		<td colspan=2><b><u>Position</u></b></td>
+	</tr>
+	<tr>
+		<td>Position Applied For:</td>
+		<td><input type="text" maxlength="30" name="position" autofocus></td>
+	</tr>
+	<tr>
+		<td>Job Referance Code:</td>
+		<td><input type="number" maxlength="30" name="code"></td>
+	</tr>
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" maxlength="40" name="name"></td>
+	</tr>
+	<tr>
+		<td>Nationality:</td>
+		<td><input type="text" maxlength="30" name="nationality"></td>
+	</tr>
+	<tr>
+		<td>Date Of Birth:</td>
+		<td><input type="date" id="dob" name="dob"></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td><textarea cols="40" rows="5" Name="Address" ></textarea></td>
+	</tr>
+	<tr>
+		<td>Telephone:</td>
+		<td><input type="text" maxlength="30" name="telephone"></td>
+	</tr>
+	<tr>
+		<td>Email:</td>
+		<td><input type="text" maxlength="30" name="mail" required></td>
+	</tr>
+	<tr>
+		<td colspan=2><b><u>Education</u></b></td>
+	</tr>
+	<tr>
+		<td>Educational History:</td>
+		<td><textarea cols="40" rows="5" Name="Education"></textarea></td>
+	</tr>
+	<tr>
+		<td>Qualifications:</td>
+		<td><textarea cols="40" rows="5" Name="qualification"></textarea></td>
+	</tr>
+		<tr>
+		<td colspan=2><b><u>Experience</u></b></td>
+	</tr>
+	<tr>
+		<td><b>Previous Experience:</b></td>
+		<td><textarea cols="40" rows="5" Name="Experience"></textarea></td>
+	</tr>
+	<tr>
+	<td><b>Years Of Experience:</b></td>
+	<td><input type="number" min="0" max="10" step="1"></td>
+	</tr>
+	<tr>
+		<td><b>Personal Statement:</b></td>
+		<td><textarea cols="40" rows="5" Name="Statement"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan=2><b><u>Referees</u></b></td>
+	</tr>
+	<tr>
+		<td colspan=2 align="left"><b><u>First Refree:</u></b></td>
+	</tr>
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" maxlength="40" name="name1"></td>
+	</tr>
+	<tr>
+		<td>Occupation:</td>
+		<td><input type="text" maxlength="30" name="occupation1"></td>
+	</tr>
+	<tr>
+		<td>Relationship:</td>
+		<td><input type="text" maxlength="30" name="relationship1"></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td><textarea cols="40" rows="5" Name="Address1" ></textarea></td>
+	</tr>
+	<tr>
+		<td>Telephone:</td>
+		<td><input type="text" maxlength="30" name="telephone1"></td>
+	</tr>
+	<tr>
+		<td colspan=2 align="left"><b><u>Second Refree:</u></b></td>
+	</tr><tr>
+		<td>Name:</td>
+		<td><input type="text" maxlength="40" name="name2"></td>
+	</tr>
+	<tr>
+		<td>Occupation:</td>
+		<td><input type="text" maxlength="30" name="occupation2"></td>
+	</tr>
+	<tr>
+		<td>Relationship:</td>
+		<td><input type="text" maxlength="30" name="relationship2"></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td><textarea cols="40" rows="5" Name="Address2" ></textarea></td>
+	</tr>
+	<tr>
+		<td>Telephone:</td>
+		<td><input type="text" maxlength="30" name="telephone2"></td>
+	</tr>
+	<tr>
+		<td><INPUT TYPE="submit" VALUE="Submit"></td>
+		<td><INPUT TYPE="reset" VALUE="Reset"></td>
+	</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
